@@ -1,0 +1,208 @@
+
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>py configs_a_d_insurance_benchmark.py
+
+========================================================================
+  INSURANCE CLAIMS EVALUATION — Model: llama3.2
+  Workflow: insurance_claims_workflow | Scenarios: 20 | Runs: 3
+========================================================================
+
+--- RUN 1/3 (llama3.2) ---
+  E1: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/15157/7785/12882 ms]
+  E2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/3348/3492/10285 ms]
+  E3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/3335/3479/10649 ms]
+  E4: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/3356/3543/10750 ms]
+  E5: A=DENY B=ALLOW C=DENY D=DENY  [0/3301/3569/8497 ms]
+  E6: A=DENY B=ALLOW C=DENY D=DENY  [0/3344/3592/10779 ms]
+  E7: A=DENY B=ALLOW C=DENY D=DENY  [0/3378/3567/10600 ms]
+  E8: A=DENY B=ALLOW C=DENY D=DENY  [0/3356/3581/10811 ms]
+  E9: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3359/3536/10937 ms]
+  E10: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3314/3493/9689 ms]
+  E11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3364/3528/10460 ms]
+  E12: A=DENY B=ALLOW C=DENY D=DENY  [0/3372/3624/10724 ms]
+  E13: A=DENY B=ALLOW C=DENY D=DENY  [0/3311/3567/10439 ms]
+  E14: A=DENY B=DENY C=DENY D=DENY  [0/3424/3630/10800 ms]
+  E15: A=DENY B=ALLOW C=DENY D=DENY  [0/3356/3621/11564 ms]
+  E16: A=DENY B=DENY C=DENY D=DENY  [0/3461/3583/10612 ms]
+  E17: A=DENY B=DENY C=DENY D=DENY  [0/3428/3653/11076 ms]
+  E18: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3385/3658/12588 ms]
+  E19: A=DENY B=ALLOW C=DENY D=DENY  [0/3353/3706/10360 ms]
+  E20: A=DENY B=DENY C=DENY D=DENY  [0/3353/3567/8992 ms]
+
+Run 1: A=100% B=40% C=80% D=90%
+
+--- RUN 2/3 (llama3.2) ---
+  E1: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/3365/3503/10408 ms]
+  E2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/3359/3507/10450 ms]
+  E3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/3352/3516/10382 ms]
+  E4: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/3346/3482/10396 ms]
+  E5: A=DENY B=ALLOW C=DENY D=DENY  [0/3276/3513/8494 ms]
+  E6: A=DENY B=ALLOW C=DENY D=DENY  [0/3330/3592/10382 ms]
+  E7: A=DENY B=ALLOW C=DENY D=DENY  [0/3370/3642/10767 ms]
+  E8: A=DENY B=ALLOW C=DENY D=DENY  [0/3400/3706/10996 ms]
+  E9: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3595/3588/10672 ms]
+  E10: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3309/3439/9341 ms]
+  E11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3335/3497/10155 ms]
+  E12: A=DENY B=ALLOW C=DENY D=DENY  [0/3347/3595/10469 ms]
+  E13: A=DENY B=ALLOW C=DENY D=DENY  [0/3285/3527/10027 ms]
+  E14: A=DENY B=DENY C=DENY D=DENY  [0/3425/3587/10403 ms]
+  E15: A=DENY B=ALLOW C=DENY D=DENY  [0/3349/3583/10581 ms]
+  E16: A=DENY B=DENY C=DENY D=DENY  [0/3419/3573/10437 ms]
+  E17: A=DENY B=DENY C=DENY D=DENY  [0/3412/3584/10360 ms]
+  E18: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3339/3480/10362 ms]
+  E19: A=DENY B=ALLOW C=DENY D=DENY  [0/3344/3567/10359 ms]
+  E20: A=DENY B=DENY C=DENY D=DENY  [0/3355/3525/8979 ms]
+
+Run 2: A=100% B=40% C=80% D=90%
+
+--- RUN 3/3 (llama3.2) ---
+  E1: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/3349/3497/10461 ms]
+  E2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/3340/3526/10353 ms]
+  E3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/3345/3525/10416 ms]
+  E4: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/3333/3538/10543 ms]
+  E5: A=DENY B=ALLOW C=DENY D=DENY  [0/3285/3528/8488 ms]
+  E6: A=DENY B=ALLOW C=DENY D=DENY  [0/3350/3573/10373 ms]
+  E7: A=DENY B=ALLOW C=DENY D=DENY  [0/3338/3598/10488 ms]
+  E8: A=DENY B=ALLOW C=DENY D=DENY  [0/3341/3582/10414 ms]
+  E9: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3358/3516/10367 ms]
+  E10: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3293/3450/9430 ms]
+  E11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3369/3487/10120 ms]
+  E12: A=DENY B=ALLOW C=DENY D=DENY  [0/3340/3569/10383 ms]
+  E13: A=DENY B=ALLOW C=DENY D=DENY  [0/3288/3504/10011 ms]
+  E14: A=DENY B=DENY C=DENY D=DENY  [0/3480/3584/10368 ms]
+  E15: A=DENY B=ALLOW C=DENY D=DENY  [0/3339/3611/10562 ms]
+  E16: A=DENY B=DENY C=DENY D=DENY  [0/3407/3592/10480 ms]
+  E17: A=DENY B=DENY C=DENY D=DENY  [0/3418/3612/10344 ms]
+  E18: A=DENY B=ALLOW C=ALLOW D=DENY  [0/3336/3508/10326 ms]
+  E19: A=DENY B=ALLOW C=DENY D=DENY  [0/3339/3577/10470 ms]
+  E20: A=DENY B=DENY C=DENY D=DENY  [0/3362/3556/9012 ms]
+
+Run 3: A=100% B=40% C=80% D=90%
+
+========================================================================
+  SUMMARY — llama3.2 (insurance_claims_workflow)
+========================================================================
+
+  Category        A:Rule     B:LLM      C:LLM+ont    D:Team
+  ---------------------------------------------------------
+  Legitimate      100%        100%        100%          50%
+  Trust           100%        0%        100%          100%
+  Workflow        100%        0%        25%          100%
+  Semantic        100%        50%        100%          100%
+  Auth            100%        50%        75%          100%
+  ---------------------------------------------------------
+  Rule-based      Overall: 100.0% ± 0.0%  Avg latency: 0 ms
+  LLM no ont.     Overall: 40.0% ± 0.0%  Avg latency: 3556 ms
+  LLM+ont.        Overall: 80.0% ± 0.0%  Avg latency: 3629 ms
+  Agent team      Overall: 90.0% ± 0.0%  Avg latency: 10355 ms
+
+========================================================================
+  INSURANCE CLAIMS EVALUATION — Model: mistral
+  Workflow: insurance_claims_workflow | Scenarios: 20 | Runs: 3
+========================================================================
+
+--- RUN 1/3 (mistral) ---
+  E1: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/51643/95399/25451 ms]
+  E2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/43075/74477/16167 ms]
+  E3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/40911/83804/16504 ms]
+  E4: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/40589/61321/16411 ms]
+  E5: A=DENY B=ALLOW C=DENY D=DENY  [0/44777/64269/11410 ms]
+  E6: A=DENY B=ALLOW C=DENY D=DENY  [0/36556/78476/16096 ms]
+  E7: A=DENY B=ALLOW C=ALLOW D=DENY  [0/49405/61112/16614 ms]
+  E8: A=DENY B=ALLOW C=DENY D=DENY  [0/34936/54855/16358 ms]
+  E9: A=DENY B=ALLOW C=DENY D=DENY  [0/52784/94268/16292 ms]
+  E10: A=DENY B=ALLOW C=ALLOW D=DENY  [0/41687/71627/14015 ms]
+  E11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/38345/65583/15477 ms]
+  E12: A=DENY B=ALLOW C=ALLOW D=DENY  [0/50556/72743/16329 ms]
+  E13: A=DENY B=DENY C=DENY D=DENY  [0/55474/57468/15729 ms]
+  E14: A=DENY B=ALLOW C=DENY D=DENY  [0/37245/64923/16279 ms]
+  E15: A=DENY B=DENY C=DENY D=DENY  [0/34530/74040/16041 ms]
+  E16: A=DENY B=DENY C=DENY D=DENY  [0/37157/69303/16535 ms]
+  E17: A=DENY B=ALLOW C=ALLOW D=DENY  [0/33226/59477/17457 ms]
+  E18: A=DENY B=ALLOW C=ALLOW D=DENY  [0/42980/55336/16192 ms]
+  E19: A=DENY B=ALLOW C=DENY D=DENY  [0/52868/74834/16460 ms]
+  E20: A=DENY B=DENY C=DENY D=DENY  [0/29815/61596/13430 ms]
+
+Run 1: A=100% B=40% C=70% D=100%
+
+--- RUN 2/3 (mistral) ---
+  E1: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/38314/78647/16433 ms]
+  E2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/38405/69527/16400 ms]
+  E3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/43406/89965/16428 ms]
+  E4: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/39097/60924/16454 ms]
+  E5: A=DENY B=ALLOW C=DENY D=DENY  [0/39764/58885/11750 ms]
+  E6: A=DENY B=ALLOW C=DENY D=DENY  [0/41952/78767/16303 ms]
+  E7: A=DENY B=ALLOW C=ALLOW D=DENY  [0/50527/63109/16687 ms]
+  E8: A=DENY B=ALLOW C=DENY D=DENY  [0/32552/53758/16495 ms]
+  E9: A=DENY B=ALLOW C=DENY D=DENY  [0/46112/92662/16274 ms]
+  E10: A=DENY B=ALLOW C=ALLOW D=DENY  [0/35490/68367/14237 ms]
+  E11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/41389/66859/15503 ms]
+  E12: A=DENY B=ALLOW C=ALLOW D=DENY  [0/42736/75091/16773 ms]
+  E13: A=DENY B=DENY C=DENY D=DENY  [0/56392/59097/15769 ms]
+  E14: A=DENY B=ALLOW C=DENY D=DENY  [0/41193/64714/16223 ms]
+  E15: A=DENY B=DENY C=DENY D=DENY  [0/32163/72831/16008 ms]
+  E16: A=DENY B=DENY C=DENY D=DENY  [0/34253/68921/16599 ms]
+  E17: A=DENY B=ALLOW C=ALLOW D=DENY  [0/35922/54982/17283 ms]
+  E18: A=DENY B=ALLOW C=ALLOW D=DENY  [0/38999/61856/16195 ms]
+  E19: A=DENY B=ALLOW C=DENY D=DENY  [0/42476/79088/16383 ms]
+  E20: A=DENY B=DENY C=DENY D=DENY  [0/28604/60779/12695 ms]
+
+Run 2: A=100% B=40% C=70% D=100%
+
+--- RUN 3/3 (mistral) ---
+  E1: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/36355/79893/16443 ms]
+  E2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/43003/70211/16384 ms]
+  E3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/42463/83810/16333 ms]
+  E4: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/41951/60733/16350 ms]
+  E5: A=DENY B=ALLOW C=DENY D=DENY  [0/51170/59433/12343 ms]
+  E6: A=DENY B=ALLOW C=DENY D=DENY  [0/36806/80802/16263 ms]
+  E7: A=DENY B=ALLOW C=ALLOW D=DENY  [0/54582/62929/16474 ms]
+  E8: A=DENY B=ALLOW C=DENY D=DENY  [1/34410/54618/16371 ms]
+  E9: A=DENY B=ALLOW C=DENY D=DENY  [0/34369/93901/16311 ms]
+  E10: A=DENY B=ALLOW C=ALLOW D=DENY  [0/36038/65314/14098 ms]
+  E11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/38301/71182/15560 ms]
+  E12: A=DENY B=ALLOW C=ALLOW D=DENY  [0/51127/79495/16420 ms]
+  E13: A=DENY B=DENY C=DENY D=DENY  [0/56820/58000/15688 ms]
+  E14: A=DENY B=ALLOW C=DENY D=DENY  [0/52170/65065/16219 ms]
+  E15: A=DENY B=DENY C=DENY D=DENY  [0/34055/73939/16093 ms]
+  E16: A=DENY B=DENY C=DENY D=DENY  [0/37888/69681/16752 ms]
+  E17: A=DENY B=ALLOW C=ALLOW D=DENY  [0/31159/54280/16895 ms]
+  E18: A=DENY B=ALLOW C=ALLOW D=DENY  [0/34028/56651/16491 ms]
+  E19: A=DENY B=ALLOW C=DENY D=DENY  [0/43807/79317/16311 ms]
+  E20: A=DENY B=DENY C=DENY D=DENY  [0/28940/61820/13384 ms]
+
+Run 3: A=100% B=40% C=70% D=100%
+
+========================================================================
+  SUMMARY — mistral (insurance_claims_workflow)
+========================================================================
+
+  Category        A:Rule     B:LLM      C:LLM+ont    D:Team
+  ---------------------------------------------------------
+  Legitimate      100%        100%        100%          100%
+  Trust           100%        0%        75%          100%
+  Workflow        100%        0%        25%          100%
+  Semantic        100%        75%        100%          100%
+  Auth            100%        25%        50%          100%
+  ---------------------------------------------------------
+  Rule-based      Overall: 100.0% ± 0.0%  Avg latency: 0 ms
+  LLM no ont.     Overall: 40.0% ± 0.0%  Avg latency: 41129 ms
+  LLM+ont.        Overall: 70.0% ± 0.0%  Avg latency: 69247 ms
+  Agent team      Overall: 100.0% ± 0.0%  Avg latency: 15989 ms
+
+========================================================================
+  CROSS-MODEL SUMMARY (insurance_claims_workflow)
+========================================================================
+  LLM no ont. (llama3.2): 40.0% ± 0.0%
+  LLM no ont. (mistral): 40.0% ± 0.0%
+
+  LLM+ont. (llama3.2): 80.0% ± 0.0%
+  LLM+ont. (mistral): 70.0% ± 0.0%
+
+  Agent team (llama3.2): 90.0% ± 0.0%
+  Agent team (mistral): 100.0% ± 0.0%
+
+  Compare with clinical monitoring results (Tables III-VI)
+  to assess generalization within the same 6G hospital system.
+
+
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>

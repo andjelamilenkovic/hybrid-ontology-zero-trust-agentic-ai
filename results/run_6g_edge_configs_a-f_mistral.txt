@@ -1,0 +1,86 @@
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>py configs_a_f_6g_edge_benchmark_mistral.py
+==============================================================================
+  6G/EDGE NETWORK ORCHESTRATION — 6 CONFIGS (A-F) — Model: mistral
+==============================================================================
+
+--- RUN 1/3 (mistral) ---
+  N1 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [15800/10031/12294/7532/21535 ms]
+  N2 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [5571/5693/5757/5295/16187 ms]
+  N3 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [30446/5876/5722/5063/15756 ms]
+  N4 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [32288/5767/5751/5761/16018 ms]
+  N5 (Trust      ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [33243/5485/5489/0/16422 ms]
+  N6 (Trust      ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [28490/5799/5944/0/16287 ms]
+  N7 (Trust      ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [39070/5763/5886/0/15896 ms]
+  N8 (Trust      ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [19689/5915/5857/0/16185 ms]
+  N9 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [5151/5443/50040/0/15853 ms]
+  N10 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [31751/5867/5812/0/15646 ms]
+  N11 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [5173/5747/5946/0/16526 ms]
+  N12 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [5133/5789/5809/0/16267 ms]
+  N13 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [27709/5968/5545/5556/15979 ms]
+  N14 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [42418/6040/6018/5455/16898 ms]
+  N15 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [36061/5986/5986/5009/16048 ms]
+  N16 (Semantic   ): A=DENY B=DENY C=DENY D=DENY E=DENY F=DENY  [32116/6004/6019/5245/16177 ms]
+  N17 (Auth       ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [44066/5530/5436/0/16203 ms]
+  N18 (Auth       ): A=DENY B=ALLOW C=DENY D=ALLOW E=DENY F=DENY  [31865/5995/5834/0/16260 ms]
+  N19 (Auth       ): A=DENY B=ALLOW C=DENY D=ALLOW E=DENY F=DENY  [38742/6008/5982/0/16087 ms]
+  N20 (Auth       ): A=DENY B=DENY C=DENY D=DENY E=DENY F=DENY  [5455/6010/5995/0/16440 ms]
+Run 1: A=100% B=30% C=55% D=60% E=100% F=85%
+
+--- RUN 2/3 (mistral) ---
+  N1 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [5416/5542/5484/4958/15891 ms]
+  N2 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [5220/5776/5813/5418/16558 ms]
+  N3 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [31055/5823/5797/4981/16072 ms]
+  N4 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [33589/5893/5858/5312/16092 ms]
+  N5 (Trust      ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [35694/5472/5524/0/16587 ms]
+  N6 (Trust      ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [30694/5816/5966/0/16333 ms]
+  N7 (Trust      ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [40225/5825/5965/0/16269 ms]
+  N8 (Trust      ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [20395/5865/5820/0/16086 ms]
+  N9 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [5277/5464/51761/0/16019 ms]
+  N10 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [32137/5808/5846/0/15390 ms]
+  N11 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [5441/5908/5798/0/16234 ms]
+  N12 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [5225/5864/5858/0/16527 ms]
+  N13 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [31260/5496/5590/5641/16146 ms]
+  N14 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [45128/5932/5933/5540/16877 ms]
+  N15 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [34030/6106/5968/5014/16069 ms]
+  N16 (Semantic   ): A=DENY B=DENY C=DENY D=DENY E=DENY F=DENY  [37376/6233/6099/5700/17189 ms]
+  N17 (Auth       ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [54006/5753/5737/0/18450 ms]
+  N18 (Auth       ): A=DENY B=ALLOW C=DENY D=ALLOW E=DENY F=DENY  [35374/6063/5895/0/17631 ms]
+  N19 (Auth       ): A=DENY B=ALLOW C=DENY D=ALLOW E=DENY F=DENY  [43021/6096/6036/0/16926 ms]
+  N20 (Auth       ): A=DENY B=DENY C=DENY D=DENY E=DENY F=DENY  [5931/5978/6020/0/16506 ms]
+Run 2: A=100% B=30% C=55% D=60% E=100% F=85%
+
+--- RUN 3/3 (mistral) ---
+  N1 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [5327/5457/5524/5012/15946 ms]
+  N2 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [5207/5776/5828/5377/16235 ms]
+  N3 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [30943/5817/5785/5105/16178 ms]
+  N4 (Legitimate ): A=ALLOW B=ALLOW C=ALLOW D=ALLOW E=ALLOW F=ALLOW  [34351/5862/5856/5597/16540 ms]
+  N5 (Trust      ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [37894/5530/5432/0/16223 ms]
+  N6 (Trust      ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [30724/5881/5916/0/16351 ms]
+  N7 (Trust      ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [37274/5911/5981/0/16011 ms]
+  N8 (Trust      ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [22966/5925/5985/0/16369 ms]
+  N9 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=DENY E=DENY F=DENY  [5290/5463/55952/0/15902 ms]
+  N10 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [30106/5893/5866/0/15614 ms]
+  N11 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [5191/5809/5823/0/16479 ms]
+  N12 (Workflow   ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=ALLOW  [5216/5850/5821/0/16321 ms]
+  N13 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [30695/5508/5487/5505/16064 ms]
+  N14 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [45860/5986/5964/5723/17062 ms]
+  N15 (Semantic   ): A=DENY B=ALLOW C=DENY D=DENY E=DENY F=DENY  [34677/5997/5958/5081/15885 ms]
+  N16 (Semantic   ): A=DENY B=DENY C=DENY D=DENY E=DENY F=DENY  [37080/5988/5927/5142/16007 ms]
+  N17 (Auth       ): A=DENY B=ALLOW C=ALLOW D=ALLOW E=DENY F=DENY  [31409/5466/5490/0/16538 ms]
+  N18 (Auth       ): A=DENY B=ALLOW C=DENY D=ALLOW E=DENY F=DENY  [30528/5979/5776/0/16416 ms]
+  N19 (Auth       ): A=DENY B=ALLOW C=DENY D=ALLOW E=DENY F=DENY  [41474/5939/5768/0/15849 ms]
+  N20 (Auth       ): A=DENY B=DENY C=DENY D=DENY E=DENY F=DENY  [5436/5939/5996/0/16678 ms]
+Run 3: A=100% B=30% C=55% D=60% E=100% F=85%
+
+==============================================================================
+  FINAL SUMMARY — mistral (network_incident_response_workflow)
+==============================================================================
+  Rule-based       Accuracy: 100.0% +/-  0.0%   Latency:      0.0 +/-    0.0 ms
+  LLM no context   Accuracy:  30.0% +/-  0.0%   Latency:  25906.3 +/-  651.5 ms
+  LLM+NL policy    Accuracy:  55.0% +/-  0.0%   Latency:   5890.1 +/-  104.2 ms
+  LLM+ontology     Accuracy:  60.0% +/-  0.0%   Latency:   8267.1 +/-   93.2 ms
+  Hybrid (gated)   Accuracy: 100.0% +/-  0.0%   Latency:   2167.0 +/-   55.7 ms
+  Agent team+ont.  Accuracy:  85.0% +/-  0.0%   Latency:  16386.5 +/-  110.9 ms
+
+  Config E skipped the LLM entirely on 12.0/20 scenarios on average (deterministic gate failed -> instant DENY).
+==============================================================================

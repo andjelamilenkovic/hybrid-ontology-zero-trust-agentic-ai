@@ -1,0 +1,213 @@
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>py configs_a_d_clinical_benchmark.py
+
+======================================================================
+  ZERO TRUST EVALUATION — 3 RUNS + LATENCY
+  Model: mistral | Scenarios: 20 | Configs: A, B, C, D
+======================================================================
+
+--- RUN 1/3 ---
+  S1: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/36428/8850/19809 ms]
+  S2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5276/5337/16005 ms]
+  S3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5390/5290/15958 ms]
+  S4: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/36897/5342/15616 ms]
+  S5: A=DENY B=ALLOW C=DENY D=DENY  [0/28503/5410/13447 ms]
+  S6: A=DENY B=ALLOW C=DENY D=DENY  [0/36576/5758/13986 ms]
+  S7: A=DENY B=ALLOW C=DENY D=DENY  [0/38850/5662/17049 ms]
+  S8: A=DENY B=ALLOW C=DENY D=DENY  [0/35009/5630/15761 ms]
+  S9: A=DENY B=ALLOW C=DENY D=DENY  [0/5175/5605/15860 ms]
+  S10: A=DENY B=ALLOW C=ALLOW D=ALLOW  [0/5226/5380/16231 ms]
+  S11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/5190/5297/15220 ms]
+  S12: A=DENY B=ALLOW C=ALLOW D=ALLOW  [0/35449/5435/15600 ms]
+  S13: A=DENY B=DENY C=DENY D=DENY  [0/4828/6434/16227 ms]
+  S14: A=DENY B=DENY C=DENY D=DENY  [0/22436/5516/12828 ms]
+  S15: A=DENY B=DENY C=DENY D=DENY  [0/15067/5924/15902 ms]
+  S16: A=DENY B=DENY C=DENY D=DENY  [0/5582/5715/16603 ms]
+  S17: A=DENY B=ALLOW C=ALLOW D=DENY  [0/39325/5363/15422 ms]
+  S18: A=DENY B=ALLOW C=DENY D=DENY  [0/47917/5515/15552 ms]
+  S19: A=DENY B=ALLOW C=ALLOW D=DENY  [0/43970/5337/16267 ms]
+  S20: A=DENY B=DENY C=DENY D=DENY  [0/6272/6052/18838 ms]
+
+Run 1 accuracy: A=100% B=45% C=75% D=85%
+Run 1 avg latency: A=0.0ms B=22968ms C=5743ms D=15909ms
+
+--- RUN 2/3 ---
+  S1: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5966/6511/15775 ms]
+  S2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5421/5404/16222 ms]
+  S3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5397/5384/16077 ms]
+  S4: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/44527/5584/16433 ms]
+  S5: A=DENY B=ALLOW C=DENY D=DENY  [0/36499/5728/14099 ms]
+  S6: A=DENY B=ALLOW C=DENY D=DENY  [0/46519/5636/12555 ms]
+  S7: A=DENY B=ALLOW C=DENY D=DENY  [0/34864/5779/17946 ms]
+  S8: A=DENY B=ALLOW C=DENY D=DENY  [1/39205/5867/16496 ms]
+  S9: A=DENY B=ALLOW C=DENY D=DENY  [0/5443/5800/17121 ms]
+  S10: A=DENY B=ALLOW C=ALLOW D=ALLOW  [0/5402/5657/17223 ms]
+  S11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/5379/5492/16439 ms]
+  S12: A=DENY B=ALLOW C=ALLOW D=ALLOW  [0/38333/5638/16599 ms]
+  S13: A=DENY B=DENY C=DENY D=DENY  [0/5378/6097/17189 ms]
+  S14: A=DENY B=DENY C=DENY D=DENY  [0/22457/5683/13205 ms]
+  S15: A=DENY B=DENY C=DENY D=DENY  [0/18109/6127/16822 ms]
+  S16: A=DENY B=DENY C=DENY D=DENY  [0/6010/5838/16842 ms]
+  S17: A=DENY B=ALLOW C=ALLOW D=DENY  [0/39629/5729/16416 ms]
+  S18: A=DENY B=ALLOW C=DENY D=DENY  [0/42650/5851/16880 ms]
+  S19: A=DENY B=ALLOW C=ALLOW D=DENY  [0/49296/5569/16403 ms]
+  S20: A=DENY B=DENY C=DENY D=DENY  [0/5707/5777/16753 ms]
+
+Run 2 accuracy: A=100% B=45% C=75% D=85%
+Run 2 avg latency: A=0.0ms B=23110ms C=5758ms D=16175ms
+
+--- RUN 3/3 ---
+  S1: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5685/5642/15474 ms]
+  S2: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5588/5594/17486 ms]
+  S3: A=ALLOW B=ALLOW C=ALLOW D=ALLOW  [0/5481/5618/17367 ms]
+  S4: A=ALLOW B=ALLOW C=ALLOW D=DENY  [0/46298/5576/16708 ms]
+  S5: A=DENY B=ALLOW C=DENY D=DENY  [0/32566/5725/14416 ms]
+  S6: A=DENY B=ALLOW C=DENY D=DENY  [0/42232/5611/12160 ms]
+  S7: A=DENY B=ALLOW C=DENY D=DENY  [0/44325/5866/17167 ms]
+  S8: A=DENY B=ALLOW C=DENY D=DENY  [0/43689/5806/16796 ms]
+  S9: A=DENY B=ALLOW C=DENY D=DENY  [0/5343/5862/16756 ms]
+  S10: A=DENY B=ALLOW C=ALLOW D=ALLOW  [0/5417/5689/17464 ms]
+  S11: A=DENY B=ALLOW C=ALLOW D=DENY  [0/5448/5542/16182 ms]
+  S12: A=DENY B=ALLOW C=ALLOW D=ALLOW  [0/42406/5622/16956 ms]
+  S13: A=DENY B=DENY C=DENY D=DENY  [0/5097/6252/16852 ms]
+  S14: A=DENY B=DENY C=DENY D=DENY  [0/23425/5980/13090 ms]
+  S15: A=DENY B=DENY C=DENY D=DENY  [0/17554/6235/17370 ms]
+  S16: A=DENY B=DENY C=DENY D=DENY  [0/5875/5801/16940 ms]
+  S17: A=DENY B=ALLOW C=ALLOW D=DENY  [0/39294/5667/16624 ms]
+  S18: A=DENY B=ALLOW C=DENY D=DENY  [0/44116/5805/16515 ms]
+  S19: A=DENY B=ALLOW C=ALLOW D=DENY  [0/45042/5665/16750 ms]
+  S20: A=DENY B=DENY C=DENY D=DENY  [1/5792/5830/17409 ms]
+
+Run 3 accuracy: A=100% B=45% C=75% D=85%
+Run 3 avg latency: A=0.0ms B=23534ms C=5769ms D=16324ms
+
+======================================================================
+  FINAL SUMMARY
+======================================================================
+
+  Config     Accuracy (mean±std)       Avg Latency
+  -------------------------------------------------------
+  Rule-based 100.0% ± 0.0%           0.0 ± 0.0 ms
+  LLM no ont. 45.0% ± 0.0%           23203.8 ± 294.3 ms
+  LLM + ont. 75.0% ± 0.0%           5756.5 ± 13.4 ms
+  Agent team 85.0% ± 0.0%           16136.1 ± 210.2 ms
+
+  Copy these numbers into Table III and a new Table V in the paper.
+  Note: Rule-based latency is sub-millisecond; LLM latency
+  reflects local inference time and would vary in production.
+======================================================================
+
+
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

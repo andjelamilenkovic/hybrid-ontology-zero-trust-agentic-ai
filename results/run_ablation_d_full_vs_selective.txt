@@ -1,0 +1,88 @@
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>py ablation_d_full_vs_selective.py
+==============================================================================
+  ABLATION: D-full vs D-selective — Model: mistral (insurance_claims_workflow)
+==============================================================================
+
+Full ontology prompt size: ~606 tokens (all 7 states + 12 goals)
+Selective ontology size varies per request (only relevant state + goal)
+
+
+--- RUN 1/3 ---
+  E1 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [58374ms/718tok vs 8559ms/243tok]
+  E2 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [59124ms/715tok vs 7790ms/253tok]
+  E3 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [59045ms/717tok vs 48007ms/280tok]
+  E4 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [47447ms/717tok vs 72565ms/241tok]
+  E5 (Trust      ): gt=DENY   D-full=DENY   D-selective=DENY    [101601ms/717tok vs 63999ms/241tok]
+  E6 (Trust      ): gt=DENY   D-full=DENY   D-selective=ALLOW   [52371ms/715tok vs 67625ms/254tok]  <-- DIFFERENT
+  E7 (Trust      ): gt=DENY   D-full=DENY   D-selective=DENY    [84374ms/719tok vs 42944ms/282tok]
+  E8 (Trust      ): gt=DENY   D-full=DENY   D-selective=ALLOW   [65296ms/718tok vs 36310ms/243tok]  <-- DIFFERENT
+  E9 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [43775ms/717tok vs 48176ms/248tok]
+  E10 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=INSUFFICIENT_INFO  [87506ms/716tok vs 57420ms/235tok]  <-- DIFFERENT
+  E11 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=DENY    [53332ms/716tok vs 57382ms/240tok]  <-- DIFFERENT
+  E12 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=DENY    [64561ms/716tok vs 69949ms/267tok]  <-- DIFFERENT
+  E13 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [25096ms/715tok vs 8174ms/242tok]
+  E14 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [59240ms/715tok vs 8090ms/234tok]
+  E15 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [62741ms/723tok vs 8200ms/267tok]
+  E16 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [27343ms/718tok vs 8086ms/241tok]
+  E17 (Auth       ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [5690ms/719tok vs 44618ms/245tok]
+  E18 (Auth       ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [51620ms/715tok vs 5438ms/254tok]
+  E19 (Auth       ): gt=DENY   D-full=DENY   D-selective=ALLOW   [46087ms/717tok vs 60748ms/241tok]  <-- DIFFERENT
+  E20 (Auth       ): gt=DENY   D-full=DENY   D-selective=ALLOW   [51804ms/715tok vs 80361ms/234tok]  <-- DIFFERENT
+Run 1: D-full=70%  D-selective=60%
+
+--- RUN 2/3 ---
+  E1 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [41190ms/718tok vs 5355ms/243tok]
+  E2 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [58423ms/715tok vs 5405ms/253tok]
+  E3 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [58758ms/717tok vs 45893ms/280tok]
+  E4 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [46670ms/717tok vs 69125ms/241tok]
+  E5 (Trust      ): gt=DENY   D-full=DENY   D-selective=DENY    [102073ms/717tok vs 64757ms/241tok]
+  E6 (Trust      ): gt=DENY   D-full=DENY   D-selective=ALLOW   [52189ms/715tok vs 67693ms/254tok]  <-- DIFFERENT
+  E7 (Trust      ): gt=DENY   D-full=DENY   D-selective=DENY    [82025ms/719tok vs 41628ms/282tok]
+  E8 (Trust      ): gt=DENY   D-full=DENY   D-selective=ALLOW   [71281ms/718tok vs 35255ms/243tok]  <-- DIFFERENT
+  E9 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [43510ms/717tok vs 49373ms/248tok]
+  E10 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [88271ms/716tok vs 63516ms/235tok]
+  E11 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=DENY    [58182ms/716tok vs 57886ms/240tok]  <-- DIFFERENT
+  E12 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [64258ms/716tok vs 75156ms/267tok]
+  E13 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [24887ms/715tok vs 3661ms/242tok]
+  E14 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [59084ms/715tok vs 5559ms/234tok]
+  E15 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [62972ms/723tok vs 3724ms/267tok]
+  E16 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [25651ms/718tok vs 3844ms/241tok]
+  E17 (Auth       ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [5538ms/719tok vs 46395ms/245tok]
+  E18 (Auth       ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [53126ms/715tok vs 5481ms/254tok]
+  E19 (Auth       ): gt=DENY   D-full=DENY   D-selective=ALLOW   [45263ms/717tok vs 61032ms/241tok]  <-- DIFFERENT
+  E20 (Auth       ): gt=DENY   D-full=DENY   D-selective=ALLOW   [51888ms/715tok vs 75497ms/234tok]  <-- DIFFERENT
+Run 2: D-full=70%  D-selective=55%
+
+--- RUN 3/3 ---
+  E1 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [41646ms/718tok vs 5486ms/243tok]
+  E2 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [60306ms/715tok vs 5402ms/253tok]
+  E3 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [62418ms/717tok vs 46192ms/280tok]
+  E4 (Legitimate ): gt=ALLOW  D-full=ALLOW  D-selective=ALLOW   [49185ms/717tok vs 69958ms/241tok]
+  E5 (Trust      ): gt=DENY   D-full=DENY   D-selective=DENY    [102667ms/717tok vs 66777ms/241tok]
+  E6 (Trust      ): gt=DENY   D-full=DENY   D-selective=ALLOW   [53010ms/715tok vs 66197ms/254tok]  <-- DIFFERENT
+  E7 (Trust      ): gt=DENY   D-full=DENY   D-selective=DENY    [81769ms/719tok vs 47150ms/282tok]
+  E8 (Trust      ): gt=DENY   D-full=DENY   D-selective=ALLOW   [64623ms/718tok vs 37111ms/243tok]  <-- DIFFERENT
+  E9 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [42711ms/717tok vs 43518ms/248tok]
+  E10 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [92394ms/716tok vs 66866ms/235tok]
+  E11 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=DENY    [53343ms/716tok vs 57889ms/240tok]  <-- DIFFERENT
+  E12 (Workflow   ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [68461ms/716tok vs 71813ms/267tok]
+  E13 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [23826ms/715tok vs 3668ms/242tok]
+  E14 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [60520ms/715tok vs 5629ms/234tok]
+  E15 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [63304ms/723tok vs 3717ms/267tok]
+  E16 (Semantic   ): gt=DENY   D-full=DENY   D-selective=DENY    [24895ms/718tok vs 4059ms/241tok]
+  E17 (Auth       ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [5627ms/719tok vs 44072ms/245tok]
+  E18 (Auth       ): gt=DENY   D-full=ALLOW  D-selective=ALLOW   [51047ms/715tok vs 5859ms/254tok]
+  E19 (Auth       ): gt=DENY   D-full=DENY   D-selective=ALLOW   [46172ms/717tok vs 62993ms/241tok]  <-- DIFFERENT
+  E20 (Auth       ): gt=DENY   D-full=DENY   D-selective=ALLOW   [52856ms/715tok vs 74382ms/234tok]  <-- DIFFERENT
+Run 3: D-full=70%  D-selective=55%
+
+==============================================================================
+  FINAL SUMMARY
+==============================================================================
+  D-full:      Accuracy  70.0% +/-  0.0%   Latency  55040.8ms   Avg tokens/prompt: 717
+  D-selective: Accuracy  56.7% +/-  2.4%   Latency  39656.9ms   Avg tokens/prompt: 249
+
+  Token reduction (selective vs full): 65%
+==============================================================================
+
+C:\Users\AndjelaPC\Desktop\rad az casopis\novi\scripts>
